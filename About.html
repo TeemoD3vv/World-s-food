@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel = "icon" href = 
+"./pics/Logo.png" 
+        type = "image/x-icon">
+        <title>The World’s Food</title>
+    </head>
+<body>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Cursive;
+}
+.center{
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 280px;
+    color: rgb(155, 121, 28);
+}
+h1{
+    color: antiquewhite;
+    text-align: center;
+    font: italic 400% "Fira Sans", serif
+}
+.navbar{
+        width: 23%;
+        padding: 35px 31px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url('./pics/FOODS.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(155, 121, 28);
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.about-1{
+    margin: 30px;
+    padding: 5px;
+}
+.about-1 h1{
+    text-align: center;
+    color: rgb(199, 131, 42);
+    font-weight: bold;
+    margin-top: 0.5%;
+}
+.about-1 p{
+    font: 30px 'Playfair Display', serif;
+    text-align: center;
+    padding: 3px;
+    color: rgb(255, 255, 255);
+}
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgb(212, 162, 69);
+    padding: 80px 30px;
+    box-shadow: 0 0 9px rgba(0,0,0.6);
+}
+.about-item i{
+    font-size: 43px;
+    margin: 0;
+}
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.about-item hr{
+    width: 46px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    border: none;
+    text-align: center;
+}
+.about-item:hover{
+    background-color: rgb(255, 230, 117);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    color: black;
+}
+.about-item:hover hr{
+    background-color: rgb(0, 0, 0);
+}
+.about-item:hover i{
+    transform: translateY(-20px);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover hr{
+    transition: all 400ms ease-in-out;
+}
+
+footer{
+    background: #bd7811;
+    padding: 10px;
+}
+footer p{
+    color: black;
+    text-align: center;
+
+}
+    </style>
+    <div class="center">
+    </div>
+        <div class="navbar">
+            <ul>
+                <li class="active"><a href="Home.html">Back</a></li>
+            </ul>
+        </div>
+    </div>
+    <h1>ABOUT US</h1>
+    <section id="about">
+        <div class="about-1">
+            <p>2022</p>
+            <div id="about-2">
+                <div class="content-box-lg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="about-item text-center">
+                                    <i class="fa fa-heart"></i>
+                                    <h3>Where to use?</h3>
+                                    <hr>
+                                    <p>The World’s Food company make this website to travel the viewers around the world to see what famous foods in other countries and to see how this dishes make and to try it in home.<br>this website is used to expand people's knowledge of different types of food and the most famous dishes in the countries, it is also helpful for those who love to cook because they can see here the ingredients and the process of making.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="about-item text-center">
+                                    <i class="fa fa-heart"></i>
+                                    <h3>About our web</h3>
+                                    <hr>
+                                    <p>Our webpages are about foods that are popular throughout Asia. We made these webpages to help those who want to cook delicious meals and see the cooking method and ingredients. Just follow the instructions. of cooking the dishes posted here, the ingredients are also based on re-research and it was also obtained from various webs and properly<br> researching each dish of that is also properly followed by those who imitate and also properly the outcome</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="about-item text-center">
+                                    <i class="fa fa-heart"></i>
+                                    <h3>Who's the developer of this website?</h3>
+                                    <hr>
+                                    <p>Hi! my name is Lloyd jefferson samonte the project manager of this website we make this website not by  my self but with help of my 6 members aldrin isidro, alpee gonzales and justin jayme this our the people who help me to develop this website,<br> rian valera, mavi valera, judine esparago is our researcher and for design of this page we all talk and planned what's need or what design that fits in viewer and be presentable<br> this is all about our website thank you for visiting our website!!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center">
+        <p>Copyright &copy; 2022 All right reserved by Foodweb inc.</p>
+    </footer>
+</body>
+</html>

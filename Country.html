@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "icon" href = 
+"./pics/Logo.png" 
+        type = "image/x-icon">
+        <title>The World’s Food</title>
+    </head>
+<body>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Cursive;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url('./pics/Travell.jpeg');
+    background-size: cover;
+}
+.center{
+    position: absolute;
+    top: 5.40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 280px;
+    color: rgb(155, 121, 28);
+}
+h1{
+    text-align: center;
+    font: italic 345% "Fira Sans", serif
+}
+.navbar{
+    width: 50%;
+    padding: 35px 31px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(155, 121, 28);
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.Img{
+    height: 98%;
+    width: 9%;
+    margin-left: 1%;
+    margin-top:1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+}
+.col{
+    flex: 33.33%;
+    padding: 35px;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+    background: linear-gradient();
+    overflow: auto;
+}
+.gallery {
+    margin: 20px;
+    border: 3px solid rgb(255, 255, 255);
+    float: left;
+    width: 460px;
+}
+.gallery img{
+    width: 100%;
+    height: 600px;
+}
+.desc{
+    padding: 50;
+    text-align: center;
+    color: antiquewhite;
+}
+footer{
+    background: #bd7811;
+    padding: 10px 0%;
+}
+footer p{
+    color: black;
+    text-align: center;
+}
+    </style>
+    <header>
+    <div class="center">
+        <h1>Country List</h1>
+    </div>
+    <div class="navbar">
+        <ul>
+            <li><a href="Home.html">Back</a></li>
+        </ul>
+    </div> 
+    <div class="container">
+        <div class="gallery">
+            <a href="./Philippines.html">
+            <img src="./pics/Philippines.jpg">
+            </a>
+            <div class="desc">Philippines</div>
+        </div>
+        <div class="gallery">
+            <a href="./Canada.html">
+            <img src="./pics/Canada.jpeg">
+            </a>
+            <div class="desc">Canada</div>
+        </div>
+        <div class="gallery">
+            <a href="./China.html">
+            <img src="./pics/China.jpeg">
+            </a>
+            <div class="desc">China</div>
+        </div>
+        <div class="gallery">
+            <a href="./France.html">
+            <img src="./pics/france.jpeg">
+            </a>
+            <div class="desc">France</div>
+        </div>
+        <div class="gallery">
+            <a href="./Indonesia.html">
+            <img src="./pics/Indonesia.jpg">
+            </a>
+            <div class="desc">Indonesia</div>
+        </div>
+        <div class="gallery">
+            <a href="./Italy.html">
+            <img src="./pics/italy.jpeg">
+            </a>
+            <div class="desc">Italy</div>
+        </div>
+        <div class="gallery">
+            <a href="./japan.html">
+            <img src="./pics/Japan.jpeg">
+            </a>
+            <div class="desc">Japan</div>
+        </div>
+        <div class="gallery">
+            <a href="./Korea.html">
+            <img src="./pics/korea.jpg">
+            </a>
+            <div class="desc">Korea</div>
+        </div>
+        <div class="gallery">
+            <a href="./Thailand.html">
+            <img src="./pics/Thailand.jpg">
+            </a>
+            <div class="desc">Thailand</div>
+        </div>
+        <div class="gallery"> 
+            <a href="./U.S.html">
+            <img src="./pics/U.S.jpeg">
+            </a>
+            <div class="desc">United states</div>
+        </div>
+        <div class="gallery">
+            <a href="./Singapore.html">
+            <img src="./pics/Singapore.jpg">
+            </a>
+            <div class="desc">Singapore</div>
+        </div>
+        <div class="gallery">
+            <a href="./Malaysia.html">
+            <img src="./pics/Malaysia.jpeg">
+            </a>
+            <div class="desc">Malaysia</div>
+        </div>
+    </div>
+    <footer class="text-center">
+        <p>Copyright &copy; 2022 All right reserved by Foodweb inc.</p>
+    </footer>
+</header>
+</body>
+</html>

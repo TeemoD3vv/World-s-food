@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "icon" href = 
+"./pics/Logo.png" 
+        type = "image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The World’s Food</title>
+</head>
+<body>
+    <style>
+        * {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body {  
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url('./pics/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+.login-form {
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+}
+.login-form h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.login-form p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+.login-form input {
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.login-form button {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    border: 3px solid gray;
+    font-weight: bold;
+    margin: 20px 0;
+    align-items: center;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+}
+.signup_link{
+    margin-left: 65%;
+    margin-top: -14%;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+.signup_link a{
+    color: aquamarine;
+    text-decoration: none;
+}
+.signup_link a:hover {
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+    font: bold;
+    color: antiquewhite;
+    margin-top: 18%;
+}
+    </style>
+    <h1>Login</h1>
+    <div class="login-form">
+     <form action="Home.html" method="post">
+        <p>Username</p>
+        <input type="email" name="User" placeholder="User Name" required>
+        <p>Password</p>
+        <input type="password" name="password" placeholder="Password"required>
+        <button type="submit" >Login</button>
+        <div class="signup_link">
+            <a href="Signup.html">Sign up</a>
+        </div>
+     </form>  
+    </div>
+</body>
+</html>

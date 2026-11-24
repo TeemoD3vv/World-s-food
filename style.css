@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 20px 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 110px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    -webkit-text-stroke: 2px rgb(155, 121, 28);
+    color: transparent;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-size: 110px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.7s;
+    font: italic 80px "Fira Sans", serif;
+}
+.content h1:hover{
+    -webkit-text-stroke: 2px rgb(155, 121, 28);
+    color: transparent;
+}
+.content p{
+    font-size: 80px;
+    text-align: center;
+    color: antiquewhite;
+    transition: 0.8s;
+    font: italic 80px "Fira Sans", serif;
+}
+.content p:hover{
+    -webkit-text-stroke: 2px rgb(155, 121, 28);
+    color: transparent;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+
+title{
+    text-align: center;
+    font-size: 90px;
+    font: italic 90% "Fira Sans", serif
+}
+title h1{
+    font: italic 50px "Fira Sans", serif
+}
+.line {
+    width: 150px;
+    height: 4px;
+    background: rgb(99, 73, 1);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.row {
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-between;
+    align-items: center;
+  }
+p{
+    text-align: center;
+
+}
+.column {
+    flex: 33%;
+    padding: 45px;
+}
+.column p{
+    font-size: 20px;
+    font: italic 20px "Fira Sans", serif
+}
+.leader{
+    height: 600px;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 30px;
+}
+h1{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 50px;
+    font: italic 70px "Fira Sans", serif
+}
+.img {
+    align-items: center;
+}
+section{
+    background: rgb(115,67,0);
+background: linear-gradient(248deg, rgba(115,67,0,1) 0%, rgba(221,170,129,1) 100%);
+}
+section title h1{
+    font: italic 50px "Fira Sans", serif
+}
+footer{
+    background: #bd7811;
+    padding: 10px;
+}
+footer p{
+    color: black;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 50px;
+    font: italic 22px "Fira Sans", serif
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+@media (min-width: 600px){
+    .title{
+        text-align: center;
+        font-size: 50px;
+    }
+    .content{
+        font-size: 50px;
+    }
+    .p{
+        font-size: 50px;
+    }
+}
+
+
